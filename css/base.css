@@ -1,0 +1,29 @@
+@media (min-width: 480px) and (max-width: 767px) {
+    * {
+        box-sizing: border-box;
+        text-align: center;
+    }
+    main {
+        /* width: 480px; */
+        border-left: 1px solid #4a4a4aa6;
+        border-right: 1px solid #4a4a4aa6;
+        border-bottom: 1px solid #4a4a4aa6;
+    }
+
+
+}
+
+
+@media (min-width: 768px) and (max-width: 960px) {
+
+    * {
+        box-sizing: border-box;
+        text-align: center;
+    }
+    main {
+        height: 700px;
+        border-right: 1px solid #4a4a4aa6;
+    }
+
+
+}
