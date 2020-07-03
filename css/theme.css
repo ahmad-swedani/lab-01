@@ -20,13 +20,22 @@
     #c, #d, #e, #f, #g, #h {
         background-color: #C37E4C;
     }
-    /* #a, #i {
-        background-color: #2D1300;
+}
+
+@media (min-width: 961px) {
+    #a, #i {
+        background-color: #86A3c3;
     }
     #b {
-        background-color: #783201;
+        background-color: #6b3074;
     }
-    #c, #d, #e, #f, #g, #h {
-        background-color: #C37E4C;
-    } */
+    #h {
+        background-color: #3877be4b;
+    }
+    #c, #d, #e, #f, #g {
+        background-color: #d7bbe0;
+    }
+
+
+
 }
