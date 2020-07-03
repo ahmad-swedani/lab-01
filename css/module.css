@@ -28,56 +28,7 @@
     #i {
         grid-area: i;
     }
-  
-  
-  
-    /* #a {
-        width: 100%;
-        height: 75px;
-    }
-    #b {
-        width: 100%;
-        height: 150px;
-    }
-    #c {
-        width: 100%;
-        height: 125px;
-    }
-    #d {
-        width: 100%;
-        height: 125px;
-    }
-    #e {
-        box-sizing: border-box;
-        border-right: 1px solid #4a4a4aa6;
-        float: left;
-        width: 50%;
-        height: 250px;
-    }
-    #f {
-        box-sizing: border-box;
-        float: left;
-        width: 50%;
-        height: 250px;
-    }
-    #g {
-        box-sizing: border-box;
-        border-right: 1px solid #4a4a4aa6;
-        float: left;
-        width: 50%;
-        height: 250px;
-    }
-    #h {
-        box-sizing: border-box;
-        float: left;
-        width: 50%;
-        height: 250px;
-    }
-    #i {
-        clear: both;
-        width: 100%;
-        height: 80px;
-    } */
+
 }
 
 @media (min-width: 768px) and (max-width: 960px) {
@@ -111,56 +62,38 @@
     #i {
         grid-area: i;
     }
-    
-    /* #a {
-        width: 100%;
-        height: 100px;
+
+}
+
+@media (min-width: 961px) {
+
+    #a {
+        grid-area: a;
     }
     #b {
-        float: left;
-        width: 20.833333333%;
-        height: 600px;
+        grid-area: b;
     }
     #c {
-        float: left;
-        width: 39.583333333%;
-        height: 200px;
+        grid-area: c;
     }
     #d {
-        float: left;
-        width: 39.583333333%;
-        height: 200px;
+        grid-area: d;
     }
     #e {
-        box-sizing: border-box;
-        border-right: 1px solid #4a4a4aa6;
-        float: left;
-        width: 19.791666667%;
-        height: 250px;
+        grid-area: e;
     }
     #f {
-        box-sizing: border-box;
-        float: left;
-        width: 19.791666667%;
-        height: 250px;
+        grid-area: f;
     }
     #g {
-        box-sizing: border-box;
-        border-right: 1px solid #4a4a4aa6;
-        float: left;
-        width: 19.791666667%;
-        height: 250px;
+        grid-area: g;
     }
     #h {
-        box-sizing: border-box;
-        float: left;
-        width: 19.791666667%;
-        height: 250px;
+        grid-area: h;
     }
     #i {
-        float: left;
-        width: 79.166666667%;
-        height: 150px;
-    } */
+        grid-area: i;
+    }
+
 
 }

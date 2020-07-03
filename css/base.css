@@ -46,3 +46,22 @@
         border-right: 1px solid #4a4a4aa6;
     } */
 }
+
+@media (min-width: 961px) {
+    * {
+        box-sizing: border-box;
+    }
+    div {
+        text-align: center;
+    }
+    main {
+        border-top: 1px solid #4a4a4aa6;
+        border-right: 1px solid #4a4a4aa6;
+
+        width: 100%;
+        display: grid;
+        grid-template-columns: 10.833333333% 1fr .5fr .5fr 1fr 1fr;
+        grid-template-rows: 75px 489px 225px 75px;
+        grid-template-areas: "b a a a a h" "b c c d d h" "b e f f g h" "b i i i i i";
+    }
+}
