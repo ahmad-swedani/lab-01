@@ -1,26 +1,33 @@
 @media (min-width: 480px) and (max-width: 767px) {
-
     #a, #b, #c, #d, #e, #f, #g, #h, #i {
         border-top: 1px solid #4a4a4aa6;
     }
-
+    /* #a, #b, #c, #d, #e, #f, #g, #h, #i {
+        border-top: 1px solid #4a4a4aa6;
+    } */
 }
 
 @media (min-width: 768px) and (max-width: 960px) {
-
     #a, #b, #c, #d, #e, #f, #g, #h, #i {
         border-bottom: 1px solid #4a4a4aa6;
         border-top: 1px solid #4a4a4aa6;
         border-left: 1px solid #4a4a4aa6;
     }
-    #b, #c, #d, #e, #f, #g, #h, #i{
-    border-top:  #fffefe00;
-
-   } 
-   #f, #h{
-    border-left:  #ffffff00;
-
-   }
-
-
+    #b, #c, #d, #e, #f, #g, #h, #i {
+        border-top: #fffefe00;
+    }
+    #f, #h {
+        border-left: #ffffff00;
+    }
+    /* #a, #b, #c, #d, #e, #f, #g, #h, #i {
+        border-bottom: 1px solid #4a4a4aa6;
+        border-top: 1px solid #4a4a4aa6;
+        border-left: 1px solid #4a4a4aa6;
+    }
+    #b, #c, #d, #e, #f, #g, #h, #i {
+        border-top: #fffefe00;
+    }
+    #f, #h {
+        border-left: #ffffff00;
+    } */
 }
